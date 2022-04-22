@@ -1,6 +1,8 @@
 div#Image01Expandable,
 #Image02Expandable,
-#Image03Expandable {
+#Image03Expandable,
+#Image04Expandable,
+#Image05Expandable {
     position: absolute;
     font-size: 9px;
     background-color: rgba(35, 35, 35, 0.9);
@@ -18,9 +20,13 @@ div#Image01Expandable,
 
 #Image01Expandable,
 #Image02Expandable,
-#Image03Expandable {
-    -webkit-transition: bottom 0.5s;
-    -moz-transition: bottom 0.5s;
+#Image03Expandable,
+#Image04Expandable,
+#Image05Expandable
+{
+
+    -webkit-transition: bottom 0.5s !important;
+    -moz-transition: bottom 0.5s !important;
 }
 
 .ImageMStyle {
@@ -31,9 +37,8 @@ div#Image01Expandable,
 
 #punchLineDivIndex {
     background-image: url('../img/bg_mission_statement.jpg');
-    height: 40vh;
+    height: 35vh;
     width: 100%;
-    margin-top: 2vh;
     border-radius: 0.3rem;
     margin-bottom: 1vh;
 }

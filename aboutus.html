@@ -13,26 +13,36 @@
     <link href="./resources/fontawesome-5.15.3/css/fontawesome.css" rel="stylesheet">
     <link href="./resources/fontawesome-5.15.3/css/brands.css" rel="stylesheet">
     <link href="./resources/fontawesome-5.15.3/css/solid.css" rel="stylesheet">
-    <title>Hello, world!</title>
+    <title>Salaar!</title>
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Salaar</a>
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg bgLight navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="./resources/img/logoBlack.png" class="logo">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="./locations.html">Locations</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="./aboutus.html">About us</a>
+                    <a class="nav-link" href="#">About us</a>
                 </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+
+
+
                 <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
@@ -46,54 +56,52 @@
           </div>
         </li> -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact Us</a>
+                    <a class="nav-link" href="./index.html#contact">Contact Us</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
+            <!-- <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            </form> -->
         </div>
     </nav>
 
-    <div class="container">
+    <div class="mt001">
         <div id="expandDiv" style="position:relative; background-color:white;">
             <div class="row rowMargin">
-                <div class="col-sm-4" style="padding:0px; position:relative; overflow:hidden;  background-color:white;">
-                    <img id="Image01" class="ImageMStyle" src="./resources/img/image_01.jpg" style="width:100%;" />
+                <div class="col-sm-12"
+                    style="padding:0px; position:relative; overflow:hidden;  background-color:white;">
+                    <img id="Image01" class="ImageMStyle" src="./resources/img/wheel.png" style="width:100%;" />
                     <div id="Image01Expandable" class="ImageExpandableStyle">
-                        <p class="ImageExpandableStyleParaHead">INTELLIGENT TRANSPORT SYSTEM</p>
+                        <p class="ImageExpandableStyleParaHead">Ending The Hassle</p>
                         <p class="ImageExpandableStyleParaText">
-                            This DCC product offers a meaningful solution to the issue of traffic congestion in
-                            burgeoning cities around the world. Our fully integrated smart system, with real-time
-                            schedule information and digital payment capabilities, makes public transportation
-                            convenient, cost-effective and dependable for commuters. Using state-of-the-art technology
-                            and real-time analytics, our solution optimizes vehicle routes and dispatch frequencies
-                            thereby enhancing overall operational efficiency. The data collected on transit and traffic
-                            patterns can ultimately enable cities to accomplish more effective urban planning.
+                            Salaar is a family owned and operated business...started exactly 15years ago from today,
+                            having over a decade of experience in the towing industry, providing 24 hour towing, fast,
+                            reliable, cost-effective towing and roadside assistance in Locations name.
+                            What most matters to us is immediate services for the people in Canada currently we are
+                            serving in three locations.
+                            The welfare of the people is always the utmost importance to us.
+                            We are experts in what we do which includes lock cars, tire change, air delivery and many
+                            more to be followed. We do our work with utmost honesty and with no hiding costs.
+                            We hope that
                         </p>
                     </div>
                     <div id="Image01Div"
                         style="width:100%; height:100%; background-color: rgba(0, 0, 0, 0.0); position:absolute; top:0px;">
+                        <h2 class="abt">About Us</h2>
                     </div>
                 </div>
-                <div class="col-sm-4" style="padding:0px; position:relative; overflow:hidden;  background-color:white;">
+                <!-- <div class="col-sm-4" style="padding:0px; position:relative; overflow:hidden;  background-color:white;">
                     <img id="Image02" class="ImageMStyle" src="./resources/img/image_02.jpg" style="width:100%;" />
                     <div id="Image02Expandable" class="ImageExpandableStyle">
                         <p class="ImageExpandableStyleParaHead">HEAVY MACHINERY SIMULATORS</p>
                         <p class="ImageExpandableStyleParaText">
-                            Heavy equipment operators globally are active users of DCC’s varied collection of
-                            simulators. Our product provides vital skill development and refresher opportunities for
-                            employees without risking the wear and tear of complex, expensive equipment and merchandise.
-                            A replica of actual instruments and panels is mounted onto 6 DOF motion platforms that are
-                            powered by motion queuing software to recreate the physical environment that operators
-                            encounter daily. With a feature-rich graphics engine, DCC is able to generate lifelike
-                            scenarios which can be customized for different time-of-day, weather and acoustic
-                            conditions. Performance can be monitored and rated to help improve operator proficiency.
+                            Heavy equipment operators globally are active users of DCC’s varied collection of simulators. Our product provides vital skill development and refresher opportunities for employees without risking the wear and tear of complex, expensive equipment and
+                            merchandise. A replica of actual instruments and panels is mounted onto 6 DOF motion platforms that are powered by motion queuing software to recreate the physical environment that operators encounter daily. With a feature-rich
+                            graphics engine, DCC is able to generate lifelike scenarios which can be customized for different time-of-day, weather and acoustic conditions. Performance can be monitored and rated to help improve operator proficiency.
                         </p>
                     </div>
-                    <div id="Image02Div"
-                        style="width:100%; height:100%; background-color: rgba(0, 0, 0, 0.0); position:absolute; top:0px;">
+                    <div id="Image02Div" style="width:100%; height:100%; background-color: rgba(0, 0, 0, 0.0); position:absolute; top:0px;">
                     </div>
                 </div>
                 <div class="col-sm-4" style="padding:0px; position:relative; overflow:hidden;  background-color:white;">
@@ -101,20 +109,45 @@
                     <div id="Image03Expandable" class="ImageExpandableStyle">
                         <p class="ImageExpandableStyleParaHead">VIRTUAL RIDES</p>
                         <p class="ImageExpandableStyleParaText">
-                            By combining our vast experience in mechatronics and expert animation skills, DCC is able to
-                            bring the thrill of virtual rides to any convenient location near you. Our proprietary
-                            motion platforms that permit 2, 3 or 6 DOF movements, are controlled by an expansive
-                            software engine which allows for realistic pitch, roll and heave effects corresponding to a
-                            number of customizable environments and terrains. Add on to that the wonders of animation
-                            and you can conjure up a limitless set of realities!
+                            By combining our vast experience in mechatronics and expert animation skills, DCC is able to bring the thrill of virtual rides to any convenient location near you. Our proprietary motion platforms that permit 2, 3 or 6 DOF movements, are controlled by
+                            an expansive software engine which allows for realistic pitch, roll and heave effects corresponding to a number of customizable environments and terrains. Add on to that the wonders of animation and you can conjure up a limitless
+                            set of realities!
                         </p>
                     </div>
-                    <div id="Image03Div"
-                        style="width:100%; height:100%; background-color: rgba(0, 0, 0, 0.0); position:absolute; top:0px;">
-                    </div>
+                    <div id="Image03Div" style="width:100%; height:100%; background-color: rgba(0, 0, 0, 0.0); position:absolute; top:0px;">
+                    </div> -->
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="contact">
+        <div class="col-md row" style="padding: 2% 6%;">
+            <div class="col-md-4">
+                <div class="text-center">
+                    <i class="fa fa-map-marker-alt contactIcons" aria-hidden="true"></i>
+                    <h4 style="color: #ffffff;"><b>Address</b></h4>
+                    <p class="contactP"><b>Weifield Group Contracting</b></p>
+                    <p class="contactP">6950 S. Jordan Road<br> Centennial, CO 80112</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <i class="fa fa-phone-square contactIcons" aria-hidden="true"></i>
+                    <h4 style="color: #ffffff;"><b>Phone</b></h4>
+                    <p class="contactP"><b>Weifield Group Contracting</b></p>
+                    <p class="contactP">6950 S. Jordan Road<br /> Centennial, CO 80112</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <i class="fa fa-envelope contactIcons" aria-hidden="true"></i>
+                    <h4 style="color: #ffffff;"><b>Email</b></h4>
+                    <p class="contactP"><b>Weifield Group Contracting</b></p>
+                    <p class="contactP">6950 S. Jordan Road<br /> Centennial, CO 80112</p>
                 </div>
             </div>
         </div>
+        <br />
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
